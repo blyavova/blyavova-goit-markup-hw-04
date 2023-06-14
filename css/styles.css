@@ -119,6 +119,7 @@ header {
 
 .current {
     position: relative;
+    color: #404bbf;
 }
 
 .current:hover::after {
@@ -128,7 +129,7 @@ header {
     bottom: -1px;
     width: 100%;
     height: 4px;
-    background: var(--ocean);
+    background-color: #404bbf;
     border-radius: 2px;
 }
 
@@ -700,7 +701,7 @@ header {
 
 
 .modal-btn:is(:hover:focus) {
-    background-color: var(--ocean);
+    background-color: #404bbf;
     border: none;
 }
 
